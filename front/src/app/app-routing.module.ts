@@ -12,7 +12,8 @@ const routes: Routes = [
   {path: 'detalle', component: DetalleComponent},
   {path: 'editar', component: CambiarNombreComponent},
   {path: 'login', component: LoginComponent},
-  {path: '**', redirectTo: 'login', pathMatch: 'full'}
+  {path: '**', redirectTo: 'galeria', pathMatch: 'full'}
+  //{path: '**', redirectTo: 'login', pathMatch: 'full'}
 ];
 
 @NgModule({
